@@ -15,7 +15,7 @@ The code 'CHIKV-model.R' contains the baseline model 'CHIKV_model' and the inter
 
 The results file is used to store the results of data analysis and visualization. 
 
-The R version is available on CRAN and https://github.com/neurodata/r-mgc. The Python version is available at https://www.python.org/downloads/.
+The R version is available on CRAN https://cran.r-project.org/mirrors.html. The Python version is available at https://www.python.org/downloads/.
 
 ### 1.Data fitting 
 Based on the constructed SI-SEI-SEIAR transmission model (CHIKV-model.R), the MCMC algorithm is used to simulate the number of cases under no-intervention scenarios and compare them with the actual reported cases (Sheet1 in 'Foshan_cases.xlsx'). This process helps to obtain the uncertain parameters βmp, βpm, and k. At the same time, it simulates the number of cases over 180 days under no-intervention scenarios. 
